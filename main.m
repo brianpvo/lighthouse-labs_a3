@@ -29,6 +29,8 @@ int main(int argc, const char * argv[]) {
         ArrayUtility *au = [[ArrayUtility alloc] init];
         
         NSLog(@"%@", [au largestNum:array]);
+        NSLog(@"%@", [au smallestNum:array]);
+        NSLog(@"%@", [au medianNum:array2]);
         NSLog(@"%@", [au largestNum:array2]);
         
     }
